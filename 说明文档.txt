@@ -1,0 +1,21 @@
+﻿1.编译环境VS2013 + windows7
+
+2.注意include与lib文件夹路径
+如果提示有链接错误，记得修改路径：
+D:\Breakout2D\Breakout2D\include
+D:\Breakout2D\Breakout2D\lib
+
+项目属性/链接器/输入/附加依赖项
+glfw3.lib
+opengl32.lib
+glew32s.lib
+SOIL.lib
+irrKlang.lib
+freetype.lib
+
+
+3.dll文件夹装有必要的dll文件，
+如果游戏提示缺少dll可以在dll文件夹下寻找
+并放入生成目录Debug文件夹下
+D:\Breakout2D\Debug
+
